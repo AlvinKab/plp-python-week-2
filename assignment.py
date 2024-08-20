@@ -1,0 +1,17 @@
+my_list = []
+print(f"Initial list: {my_list}")
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+print(f"Appended list: {my_list}")
+my_list[1] = 15
+print(f"15 added at second position: {my_list}")
+my_list.extend([50, 60, 70])
+print(f"Extended list: {my_list}")
+popped_item = my_list.pop()
+print(f"List after last item is removed: {my_list}")
+print(f"Popped item: {popped_item}")
+my_list.sort()
+print(f"Sorted list: {my_list}")
+print(f"Index of the value 30: {my_list.index(30)}")
